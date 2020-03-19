@@ -1,0 +1,30 @@
+<!-- 轮播图部分 -->
+<swiper indicator-dots="true" autoplay="true" interval="5000" circular="true">
+  <swiper-item>
+    <image src="/images/post/post-1.jpg"/>
+  </swiper-item>
+   <swiper-item>
+    <image src="/images/post/post-2.jpg"/>
+  </swiper-item>
+   <swiper-item>
+    <image src="/images/post/post-3.jpg"/>
+  </swiper-item>
+</swiper>
+
+<!-- 文章列表部分 -->
+
+<view class="post-container">
+  <view class="post-author-date">
+    <image src="/images/avatar/logo.jpg"/>
+    <text>Mar 13 2020</text>
+  </view>
+    <text class="post-title">《活着》——郝云</text>
+    <image class="post-image" src="/images/post/post-4.jpg"/>
+    <text class="post-content">累了站在高楼上，看着地上人像蚂蚁。他们的头很大，他们的腿很细。他们拿着苹果手机，他们穿着耐克阿迪。他们在这城市里，过的很压抑...</text>
+  <view class="post-like">
+    <image src="/images/post/look.jpg"></image>
+    <text>108</text>
+    <image src="/images/post/message.jpg"></image>
+    <text>92</text>
+  </view>
+</view>
